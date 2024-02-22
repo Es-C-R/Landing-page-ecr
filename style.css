@@ -1,0 +1,238 @@
+header h4 {
+   font-family:'Segoe UI', 'Open Sans',
+   height: 10px;;
+   color: azure;
+   background-color:rgb(206, 225, 28);
+   text-align: center;
+   background-size:contain;
+   font: size smaller;
+  } 
+
+  
+body {
+
+    background-color: rgb(253);
+    color: #661e1e;
+    font-family:     "Roboto Mono", monospace;
+   font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style:Lucida;
+    margin: 50; 
+    padding: 5px;
+background-image:url(images/nubee.jpg); 
+    image-orientation: flip;
+   background-size: cover;
+   filter: blur(100%);
+   z-index: -1;
+}
+
+  header h1 {
+    font-family:"Kode Mono", monospace;
+    background-color:none;
+    background-size:contain;
+    background-clip: content-box;
+    color: #6a0fbb;
+    border-radius: 10px;
+    border-color: #2897e2;
+    padding: 8px;
+    text-align: center;
+    font-size: 50px;
+    background-clip:border-box;
+  } 
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline; 
+    margin-right: 0px;
+  }
+  
+  header nav ul li a {
+    color: #172024;
+    color-scheme: rgb(161, 232, 255)
+    text-decoration: none;
+    background-color:rgb(161,232,255);
+    background-size: contain;
+    padding: 5px 60px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+
+
+
+  button {
+    font-family:     "Roboto Mono", monospace;
+    font-size: medium;
+    background-color:orange;
+    color: #2897e2;
+    border:none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button :hover {
+   background-color: #2f2f2f;
+  }
+
+
+p  {
+    font-family:     "Roboto Mono", monospace;
+    font-size: medium;
+  }
+
+
+  header h2 {
+  font-family:"Roboto Mono", monospace;
+  font-size: 30px;
+  }
+
+  
+  .product {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+
+
+    background: rgb(205, 232, 237);
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+  }
+  
+  .product img {
+    width: 180px;px;
+    height: 180px;px ;
+    float: left;
+    object-fit: cover;
+    margin: 10px;
+    background-size: contain;
+    background-clip: content-box;
+  }
+  
+
+image {
+    position: fixed;right:auto; 
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+     .banner{
+      max-width: calc(50% - 20px); 
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .banner {
+      max-width: calc(10% - 200px); 
+    }
+
+  }
+
+
+    @media only screen and (max-width: 600px) {
+      .header nav ul li a{
+        flex-direction:column;
+        gap: 600px;
+        padding: auto;
+        margin-bottom: 600px;
+     }
+   }
+   
+   @media only screen and (max-width: 400px) {
+     .header nav ul li a {
+      flex-direction:column;
+     gap: 600px;
+     padding: auto;
+     margin-bottom: 600px;
+     }
+   }
+
+   @media only screen and (max-width: 600px) {
+    .header nav ul li a{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:column;
+   }
+ }
+ 
+ @media only screen and (max-width: 400px) {
+   ..header nav ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+   }
+ }
+
+
+  @media only screen and (max-width: 600px) {
+    .menu-list{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:column;
+   }
+  }
+  
+  @media only screen and (max-width: 400px) {
+   .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+   }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .main-content{
+     flex-direction:column;
+     gap: 600px;
+     padding: auto;
+     margin-bottom: 600px;
+   }
+ }
+ 
+ @media only screen and (max-width: 400px) {
+   .main-content {
+     flex-direction:column;
+     gap: 600px;
+     padding: auto;
+     margin-bottom: 600px;
+   }
+
+ }
+
+
+
+
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+  }
+
